@@ -1,0 +1,24 @@
+vot2014
+
+
+对于goturn算法来说，其算法的缺陷是当目标不具有明显的类别特征的时候，跟踪效果不好，例如在测试视频中的几个跟踪手的情况，因为有人脸的存在，
+所以跟踪算法会跟踪人脸，这是因为goturn是一种完全离线训练的跟踪算法，如果训练样本中不含我要跟踪的目标，那么很容易出现跟踪失败的情况。
+例如hand1和hand2中的结果
+
+
+对于goturn效果不足，需要改进的有：
+1.basketball
+3.bolt
+5.david
+8.fernando
+9.fish1
+10.fish2
+12.hand1
+13.hand2
+14.jogging      跟丢失了，但是用goturn可以找回
+14.motocross    跟丢失了，但是用goturn可以找回
+17.skating
+21.torus
+23.tunnel
+24.woman
+
